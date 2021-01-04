@@ -1,11 +1,16 @@
 body{
     font-family: 'Redressed', cursive;
+    margin: 0px;
+    font-weight: lighter;
 }
 h1{
     font-size: 50px;
 }
 .WW{
     color:brown;
+}
+h2{
+    font-size: 40px;
 }
 .welcome{
     width:40%;
@@ -15,4 +20,50 @@ h1{
 }
 .welcome img{
     width: 100%;
+}
+.backimg{
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 50px;
+}
+.linkbutton{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+.doll{
+    background-image: url("dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.voot{
+    color:darkgoldenrod;
+    font-size: 25px;
+}
+.shadow{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.exp{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#red{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#blue{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, indigo, powderblue);
+    border-image-slice: 1;
 }
